@@ -13,6 +13,7 @@ dependencies = [
     "fastapi-users[sqlalchemy]>=15.0.5",
     "imagekitio>=5.13.0",
     "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.0.58",
     "uvicorn[standard]>=0.54.0",
 ]
 
@@ -22,3 +23,6 @@ fast-api-2 = "fast_api_2:main"
 [build-system]
 requires = ["uv_build>=0.13.9,<0.14.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package=false
